@@ -11,13 +11,13 @@ export function Navbar() {
           <div className="flex flex-row space-x-0 pr-10">
             <Link
             href="#aboutme"
-              className="nav-link px-2 py-1 text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-black dark:hover:text-white"
+              className="nav-link px-2 py-1 text-sm font-medium text-black hover:text-black"
             >
               About Me
             </Link>
             <Link
               href="#featuredprojects"
-              className="nav-link px-2 py-1 text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-black dark:hover:text-white"
+              className="nav-link px-2 py-1 text-sm font-medium text-black hover:text-black"
             >
               Featured Projects
             </Link>
