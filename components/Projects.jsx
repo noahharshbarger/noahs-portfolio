@@ -52,6 +52,20 @@ export default function Projects() {
             <a href="https://github.com/noahharshbarger/wv-broadband-map" target="_blank" rel="noopener" className="text-[#f6c453] font-semibold hover:underline">GitHub</a>
           </div>
         </div>
+        {/* Project: Quadratic (AI Spreadsheet Beta Test) */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col border-l-4 border-[#218380]">
+          <h3 className="font-bold text-[#1a2238] mb-2">Quadratic (AI Spreadsheet Beta Test)</h3>
+          <div className="text-xs text-[#22223b] mb-1">Tech Stack: Data analysis, QA, AI, spreadsheet automation</div>
+          <p className="mb-1"><span className="font-semibold">Contribution:</span> Beta tested and provided feedback for an AI-powered spreadsheet startup, focusing on data integration, formula accuracy, and user experience. Helped shape product features by validating real-world data workflows.</p>
+          <p className="mb-1"><span className="font-semibold">Outcome:</span> Improved data reliability and usability for early users; contributed to product-market fit for a next-gen data tool.</p>
+        </div>
+        {/* Project: EverythingWeather (Severe Weather Data Pipeline) */}
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col border-l-4 border-[#218380]">
+          <h3 className="font-bold text-[#1a2238] mb-2">EverythingWeather (Severe Weather Data Pipeline)</h3>
+          <div className="text-xs text-[#22223b] mb-1">Tech Stack: React Native, Firebase, AWS MRMS, R2, data engineering</div>
+          <p className="mb-1"><span className="font-semibold">Contribution:</span> Optimized ingestion, parsing, and smoothing of severe weather data for a mobile notification app. Implemented efficient data pipelines and storage, enabling real-time alerts and configurable data sampling.</p>
+          <p className="mb-1"><span className="font-semibold">Outcome:</span> Delivered reliable, scalable weather notifications to users; improved data processing speed and reduced costs for the client.</p>
+        </div>
       </div>
     </motion.section>
   );
