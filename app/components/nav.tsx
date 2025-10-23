@@ -2,28 +2,27 @@ import Link from 'next/link'
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-4 tracking-tight">
-      <div className="lg:sticky lg:top-20">
-        <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-          id="nav"
+    <nav className="w-full flex justify-center py-6 bg-white shadow-sm border-b border-[#f6c453] mb-8 sticky top-0 z-50">
+      <div className="flex gap-8">
+        <Link
+          href="#aboutme"
+          className="text-base font-semibold text-[#1a2238] hover:text-[#218380] transition-colors"
         >
-          <div className="flex flex-row space-x-0 pr-10">
-            <Link
-            href="#aboutme"
-              className="nav-link px-2 py-1 text-sm font-medium text-black hover:text-black"
-            >
-              About Me
-            </Link>
-            <Link
-              href="#featuredprojects"
-              className="nav-link px-2 py-1 text-sm font-medium text-black hover:text-black"
-            >
-              Featured Projects
-            </Link>
-          </div>
-        </nav>
+          About Me
+        </Link>
+        <Link
+          href="#featuredprojects"
+          className="text-base font-semibold text-[#1a2238] hover:text-[#218380] transition-colors"
+        >
+          Featured Projects
+        </Link>
+        <Link
+          href="#experience"
+          className="text-base font-semibold text-[#1a2238] hover:text-[#218380] transition-colors"
+        >
+          Experience
+        </Link>
       </div>
-    </aside>
+    </nav>
   )
 }

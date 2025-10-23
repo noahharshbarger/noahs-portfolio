@@ -47,13 +47,13 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-gray-100',
+        'text-black',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-4xl mx-4 mt-8 lg:mx-auto">
-        <main className="mt-6 flex flex-col px-2 md:px-0">
+      <body className="antialiased w-full min-h-screen bg-[#f5f6fa]">
+        <main className="w-full min-h-screen mt-0 flex flex-col px-0 gap-16">
           <Navbar />
           {children}
           <Footer />
