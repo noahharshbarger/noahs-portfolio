@@ -13,9 +13,9 @@ export default function Hero() {
         />
       </div>
       <h1 className="text-5xl md:text-7xl font-extrabold text-[#1a2238] mb-4 tracking-tight drop-shadow-lg text-center">Noah Harshbarger</h1>
-      <h2 className="text-2xl md:text-3xl text-[#218380] font-semibold mb-6 text-center">Data Engineer & Full Stack Developer</h2>
+      <h2 className="text-2xl md:text-3xl text-[#218380] font-semibold mb-6 text-center">Full Stack Developer & Frontend Instructor</h2>
       <p className="text-[#22223b] text-lg md:text-xl text-center mb-10 max-w-2xl">
-        I design, build, and optimize data pipelines, analytics platforms, and scalable web applications. My focus is on making data accessible, actionable, and impactful for organizations. Let's create something meaningful with data.
+      I craft modern, responsive user interfaces and seamless web experiences. My focus is on building performant, accessible, and visually engaging applications that empower users and drive business results. Let's create something beautiful and impactful together.
       </p>
       <div className="flex gap-6">
         <a href="#featuredprojects" className="bg-[#f6c453] hover:bg-[#218380] text-[#1a2238] px-8 py-3 rounded-xl font-bold shadow-lg transition-all text-lg border-2 border-[#f6c453] hover:text-white">View Projects</a>
